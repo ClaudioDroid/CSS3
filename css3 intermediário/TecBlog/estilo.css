@@ -1,0 +1,124 @@
+
+/* ------ Limpar formatações ------ */
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+/* ------ Formatação Geral ------  */
+body{
+	background-color: #edede8;
+	font-size: 1em;
+	font-family: arial;
+}
+h1{
+	font-size: 2.3em;
+	color: #323333;
+}
+
+h4{
+	font-size: 1.1em;
+	background-color: #dfe1e6;
+}
+
+/* ------ Links ------ */
+a{
+	text-decoration: none;
+	color: gray;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+#cabecalho a{
+	text-decoration: none;
+}
+
+#cabecalho a:link, a:visited{
+	color: white;
+	padding: 4px 12px;
+}
+
+#cabecalho a:hover{
+	color: orange;
+	background-color: white;
+	/*padding: 8px;*/
+}
+
+
+/* ------  IDs ------ */
+
+#cabecalho{
+	background-color: orange;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	color: black;
+	border: 0px;
+	padding: 12px;
+}
+
+#logo{
+	margin: 6px;
+}
+#menu{
+
+}
+
+#conteudo{
+	/*background-color: white;*/
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.postagens{
+	background-color: white;
+	width: 640px;
+	padding: 12px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#lateral{
+	background-color: white;
+	width: 220px;
+	padding: 12px;
+	float: right;
+}
+
+#rodape{
+	clear: both;
+	width: 920px;
+	text-align: center;
+	padding: 12px;
+}
+
+
+/* ------ Classes ------ */
+.titulo{
+	color: orange;
+	position: relative;
+	left: 0px;
+}
+
+.relative{
+	position: relative;
+	left: 40px;
+}
+
+.branco{
+	color: white;
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+
+
+}
+

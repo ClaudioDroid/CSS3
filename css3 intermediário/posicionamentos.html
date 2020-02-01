@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+			
+		</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			body{
+				background: #007fc7;
+			}
+			h1{
+				position: ;
+			}
+
+			p{
+				position: ;
+				width: 400px;
+			}
+
+			#container{
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 15px;
+			}
+
+			.relative{ /*/ Baseado na posição inicial do elemento */
+				border: 1px solid red;
+				position: relative;
+				top: 10px; /* 10px de distância de sua posição padrão */
+				left: -8px;
+				left: 400px;
+			}
+
+			.absolute{ /*  Removido do fluxo do documento */
+				position: absolute;
+			}
+
+			.fixed{ /* Imóvel ao rolar a página */
+				border:	2px solid yellow;
+				background: #f2f2f2; 
+				position: fixed;
+				bottom: 0px;
+			}
+
+
+		</style>
+
+
+	</head>
+
+	<body>
+
+		<div id="container">
+			<h1>Posicionamentos</h1>
+			<p>
+				P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula in, ultricies efficitur libero. Vestibulum erat eros, scelerisque id consectetur eu, efficitur vitae felis. Vivamus gravida, mi eget lobortis hendrerit, metus sem elementum libero, id condimentum metus nulla ut purus.
+			</p>
+			<p class="relative">
+				P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula in, ultricies efficitur libero. Vestibulum erat eros, scelerisque id consectetur.
+			</p>
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula.
+			</p>
+			<p class="fixed">
+				P4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur adipiscing elit..
+			</p>
+			<p class="absolute">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+
+
+
+			<p class="relative">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+			<p class="relative">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+			<p class="relative">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+			<p class="relative">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+			<p class="relative">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+
+			<p class="relative">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+			<p class="relative">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+			<p class="relative">
+				P5 Lorem  adipiscing elit. Phasellus ante leo, hendrerit bibendum ligula sit amet, consectetur.
+			</p>
+
+		</div>
+
+
+
+	</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Fontes e cores </title>
+		<meta charset="utf-8">
+	
+		<style type="text/css">
+			.formatacao {
+				color: #6666ff;
+				font-size: 22px;
+				font-family: "Times new roman",Times, serif, monospace; /*Caso o usuário não tenha a primeira fonte instalada no pc, o browser tentará aplicar a segunda fonte, terceira...*/
+				background: #e6e6ff;
+			}
+
+			div{
+				font-size: 30px /*Estou definindo o padrão das DIVs para 30px*/
+			}
+
+
+			.dobrarTexto{
+				font-size: 2em; /* "em" usa o padrão do texto definido. 2em duas vezes o tamanho padrão. */
+			}
+			
+		</style>
+
+	</head>
+	
+	<body>
+		<p class="formatacao">Minha formatação aplicada. </p>
+		<p>Sem formatação. </p>
+
+		<div class="dobrarTexto">
+			Obdecendo à tag pai. 
+		</div>
+
+	</body>
+
+</html>

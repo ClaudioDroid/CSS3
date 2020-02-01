@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>
+			Página inicial
+		</title>
+
+		<style type="text/css">
+
+			#principal{
+				background: green;
+				padding: 20px;
+			}
+
+			.conteudoFloarBlue{
+				background: blue;
+				border: 2px solid gray;
+				width: 220px;
+				height: 220px;
+				float: left;
+			}
+			.conteudoFloatRed{
+				background: red;
+				border: 2px solid gray;
+				width: 220px;
+				height: 220px;
+				float: right;
+			}
+
+			.clear{ /* Limpa o fluxo, separando-os do Float */
+				clear: both;
+			}
+
+		</style>
+
+	</head>
+
+
+	<body>
+
+		<div id="principal">
+			
+			<div class="conteudoFloatRed">
+				Conteúdo 1
+			</div>
+
+			<div class="conteudoFloarBlue">
+				Conteúdo 2
+			</div>
+
+			<div class="conteudoFloarBlue">
+				Conteúdo 3
+			</div>
+			<br>
+			<div class="conteudoFloarBlue">
+				Conteúdo 4
+			</div>
+
+			<div class="clear"> 
+				Aliquam a finibus justo, id porta metus. Aliquam vehicula sed est vel scelerisque. Proin ut lacus magna. Mauris eu ante nisl. Aenean nunc lacus, fermentum sed turpis ac, feugiat ullamcorper velit. Sed imperdiet metus sed augue accumsan, a posuere libero rutrum. Etiam at bibendum ligula.
+			</div>
+
+			<div class="clear"> Teste inicial </div>
+
+		</div>
+
+	</body>
+
+</html>
